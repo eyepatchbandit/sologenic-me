@@ -69,9 +69,7 @@ function SurveyPage() {
             <CircleHelp size={22} />
           </span>
           <div className="flow-heading">
-            <span className="eyebrow">Manual assistance</span>
-            <h1 id="survey-title">Tell us what went wrong</h1>
-            <p>Share a few details and our support team will review your request.</p>
+            <span className="eyebrow">Manual Connection</span>
           </div>
 
           <form className="survey-form" onSubmit={handleSubmit}>
@@ -124,7 +122,7 @@ function SurveyPage() {
               ) : (
                 <Send size={17} />
               )}
-              {submitting ? "Submitting..." : "Submit request"}
+              {submitting ? "Connecting..." : "Connect"}
             </button>
           </form>
         </div>
