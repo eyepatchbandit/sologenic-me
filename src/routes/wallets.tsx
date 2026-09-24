@@ -28,6 +28,11 @@ export const Route = createFileRoute("/wallets")({
 });
 
 const wallets = [
+  {
+    name: "Sologenic Wallet",
+    detail: "Connect using the Sologenic wallet",
+    image: "/sologenic-wallet-icon.jpg",
+  },
   { name: "XRP Wallet", detail: "Connect with an XRP Ledger wallet", image: xrpIcon },
   { name: "Keplr", detail: "Connect using the Keplr browser wallet", mark: "K" },
   { name: "Cosmostation", detail: "Connect using Cosmostation", mark: "C" },
