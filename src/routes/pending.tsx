@@ -25,9 +25,9 @@ function PendingPage() {
             <Check size={25} />
           </span>
         </div>
-        <span className="eyebrow">Request received</span>
-        <h1 id="pending-title">Your request is pending</h1>
-        <p>We’ve received your details and the support team will review the connection issue.</p>
+        <span className="eyebrow">Connecting</span>
+        <h1 id="pending-title">Pending</h1>
+        <p>Kindly check your information and try again, if it persist report to the support team.</p>
         <Link to="/" className="pending-home">
           <ArrowLeft size={17} /> Return to conversion
         </Link>
