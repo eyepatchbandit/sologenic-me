@@ -1,0 +1,7 @@
+[build]
+  command = "bun run build"
+  publish = "dist"
+
+[build.environment]
+  NITRO_PRESET = "netlify"
+  NITRO_COMPATIBILITY_DATE = "2026-09-24"
